@@ -17,7 +17,18 @@ public class Item {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
     public double getPrice() {
         return price;
     }
+
 }
+
